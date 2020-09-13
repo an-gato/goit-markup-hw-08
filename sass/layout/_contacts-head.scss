@@ -1,0 +1,28 @@
+.contact-item {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    fill: #757575;
+    text-decoration: none;
+    cursor: pointer;
+
+&:hover {
+ fill: #2196F3;
+ transition: 250ms;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+&:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+.mail-icon {
+    display: inline-flex;
+    margin-right: 10px;
+}
+

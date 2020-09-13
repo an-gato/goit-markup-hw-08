@@ -1,0 +1,48 @@
+.btn-list {
+    margin-right: 8px;
+    list-style-type: none;
+  
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.button {
+    padding: 94px;
+  }
+
+  .button-link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+.button-list {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: 0px;
+
+
+    transition: 250ms;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+&:hover &:focus {
+    color: white;
+    background: #2196F3;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
